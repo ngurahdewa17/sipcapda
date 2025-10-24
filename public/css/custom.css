@@ -1,0 +1,276 @@
+/* ====== TABLE STYLE PROFESSIONAL ====== */
+.professional-table {
+  font-size: 0.82rem;           /* kecil tapi tetap terbaca */
+  color: #2c3e50;               /* warna teks netral elegan */
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.05); /* sedikit bayangan lembut */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.professional-table thead {
+  background-color: #f9fafb;
+  color: #1f2937;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+}
+
+.professional-table th,
+.professional-table td {
+  padding: 8px 12px;
+  vertical-align: middle;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.professional-table tbody tr:hover {
+  background-color: #f3f4f6;
+  transition: background-color 0.2s ease;
+}
+
+/* ====== BUTTON STYLE ====== */
+.professional-table .btn {
+  font-size: 0.75rem;
+  padding: 4px 10px;
+  border-radius: 6px;
+  text-transform: capitalize;
+}
+
+/* warna tombol disesuaikan tema */
+.btn-success {
+  background-color: #22c55e;
+  border-color: #22c55e;
+}
+.btn-success:hover {
+  background-color: #16a34a;
+  border-color: #16a34a;
+}
+
+.btn-danger {
+  background-color: #ef4444;
+  border-color: #ef4444;
+}
+.btn-danger:hover {
+  background-color: #dc2626;
+  border-color: #dc2626;
+}
+
+/* Sedikit efek halus untuk header */
+.professional-table thead th {
+  border-bottom: 2px solid #e5e7eb;
+  font-size: 0.8rem;
+}
+
+/* ===== Tombol Aksi Modern ===== */
+.btn-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  padding: 10px 18px;
+  font-size: 0.9rem;
+  color: #fff;
+  transition: all 0.25s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.btn-action i {
+  font-size: 1rem;
+}
+
+/* PDF Button */
+.btn-pdf {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  box-shadow: 0 4px 12px rgba(239,68,68,0.35);
+}
+.btn-pdf:hover {
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  transform: translateY(-2px);
+}
+
+/* View Button */
+.btn-view {
+  background: linear-gradient(135deg, #10b981, #059669);
+  box-shadow: 0 4px 12px rgba(16,185,129,0.35);
+}
+.btn-view:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  transform: translateY(-2px);
+}
+
+/* Date Input Style */
+input[type="date"].form-control {
+  background-color: #f8fafc;
+  font-size: 0.9rem;
+  border-radius: 10px;
+}
+input[type="date"].form-control:focus {
+  border-color: #10b981;
+  box-shadow: 0 0 0 0.2rem rgba(16,185,129,0.25);
+}
+
+/* HEADER CARD */
+.bg-gradient-primary {
+  background: linear-gradient(135deg, #2563eb, #1e40af);
+}
+
+/* GAYA TOMBOL AKSI */
+.btn-action {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.9rem;
+  transition: all 0.25s ease;
+  color: #fff;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.btn-action i {
+  font-size: 1rem;
+  margin-right: 6px;
+}
+
+/* PDF Button */
+.btn-pdf {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+}
+.btn-pdf:hover {
+  background: linear-gradient(135deg, #dc2626, #991b1b);
+  transform: translateY(-2px);
+}
+
+/* View Button */
+.btn-view {
+  background: linear-gradient(135deg, #10b981, #059669);
+}
+.btn-view:hover {
+  background: linear-gradient(135deg, #059669, #047857);
+  transform: translateY(-2px);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+footer {
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.3px;
+  background: #f8f9fa;
+}
+
+/* Judul utama */
+.footer-title {
+  font-size: 1.1rem;
+  color: #003d91 !important;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* Link developer */
+.footer-link:hover {
+  color: #0d6efd !important;
+  text-decoration: underline;
+}
+
+/* Link website */
+.footer-site {
+  font-size: 0.95rem;
+  color: #555;
+  transition: all 0.3s ease;
+}
+.footer-site:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+/* Logo efek hover */
+footer img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+footer img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.3);
+}
+
+/* Kontak Info */
+.contact-info i {
+  font-size: 1rem;
+  vertical-align: middle;
+}
+.contact-info a:hover {
+  color: #0d6efd !important;
+}
+
+/* ======== FOOTER STYLE ======== */
+footer.pc-footer {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  margin-top: auto;
+  width: calc(100% - 230px);   /* sejajar dengan konten kanan (sesuaikan lebar sidebar-mu, 210px → 280px biasanya di template CodedThemes) */
+  margin-left: 230px;          /* sejajarkan dengan sidebar */
+  text-align: center;
+  background-color: #f8f9fa;
+  border-top: 1px solid #dee2e6;
+  box-shadow: 0 -2px 6px rgba(0, 0, 0, 0.05);
+  padding: 25px 0;
+  z-index: 10;
+  transition: all 0.3s ease;
+}
+
+/* Pastikan konten tidak menutupi footer */
+.pc-content {
+  padding-bottom: 120px; /* beri ruang bawah agar footer tidak ketimpa */
+}
+
+/* ======== FOOTER TEXT & LINK STYLE ======== */
+footer.pc-footer .footer-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #003d91;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+}
+
+footer.pc-footer .contact-info {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+footer.pc-footer .footer-site {
+  font-size: 0.95rem;
+  color: #555;
+  transition: all 0.3s ease;
+}
+footer.pc-footer .footer-site:hover {
+  color: #0d6efd;
+  text-decoration: underline;
+}
+
+/* ======== LOGO HOVER EFFECT ======== */
+footer.pc-footer img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+footer.pc-footer img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(13, 110, 253, 0.3);
+}
+
+/* ======== RESPONSIVE FIX (Sidebar Collapse) ======== */
+@media (max-width: 991px) {
+  footer.pc-footer {
+    width: 100%;      /* footer full ketika sidebar ditutup */
+    margin-left: 0;   /* reset posisi */
+  }
+
+  .pc-content {
+    padding-bottom: 140px; /* sedikit lebih besar di mobile */
+  }
+}
